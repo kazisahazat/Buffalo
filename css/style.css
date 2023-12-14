@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.clr {
+    clear: both;
+}
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+
+
+@font-face {
+    src: url(../fonts/PotroSansBangla-Regular.ttf);
+    font-family: 'PotroSansBangla-R';
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+body {
+    font-family: 'PotroSansBangla-R';
+}
+
+
+
+
+/*-=================================================================================== 
+                                Top-bar CSS Start 
+===================================================================================-*/
+#top-bar {
+    background-color: #277443;
+    color: #fff;
+    border: 1px solid #333
+}
+
+#top-bar .p1 {
+    width: 200px;
+}
+#top-bar .p1 p {
+    line-height: 30px;
+}
+#top-bar .p2 {
+    background: #000;
+}
+#top-bar .p2 a {
+    line-height: 30px;
+    color: #fff;
+}
+#top-bar .p3 {
+    width: 800px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+#top-bar .p3 i {
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-=================================================================================== 
+                                Navbar CSS Start 
+===================================================================================-*/
+.navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 999;
+}
+
+.navbar .container-fluid {
+    position: relative;
+    z-index: 9999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.top-menu {
+    padding: 10px;
+    box-shadow: 0 0 5px 5px rgba(33, 33, 33, 0.51);
+    margin-bottom: 10px;
+}
+.logo span {
+	color: #fff;
+	line-height: 84px;
+}
+.logo a img {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+#navbar {
+	background-color: #277443;
+	padding-bottom: 10px;
+	box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.33);
+}
+#navbar .logo {
+    width: 20%;
+    float: left;
+    padding-right: 20px;
+}
+#navbar .logo img {
+    width: 20%;
+}
+#navbar .main-menu {
+    width: 60%;
+    float: left;
+}
+#navbar .form {
+    width: 20%;
+    float: left;
+}
+#navbar .main-menu ul li {
+    display: inline;
+}
+#navbar .main-menu ul li a {
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #fff;
+    transition: all linear .3s;
+}
+#navbar .main-menu ul li a.active {
+    color: #000;
+}
+#navbar .main-menu ul li a:hover {
+    color: #000;
+}
+
+
+
+
+#navbar .form-fild {
+	background: #fff;
+	margin-left: 20px;
+	width: 210px;
+	border-radius: 6px;
+    margin-top: 20px;
+}
+#navbar .form-fild input {
+	background: #fff;
+	width: 170px;
+	border: 0;
+	height: 37px;
+}
+#navbar .form-fild .btn {
+    background: #000;
+    border: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #fff;
+}
+#navbar .form-fild .btn:hover {
+    color: #277443;
+}
+
+
+
+
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-=================================================================================== 
+                                Ads CSS Start 
+===================================================================================-*/
+
+.ads1 img {
+    border-radius: 5px;
+}
+
+
+
+/*-=================================================================================== 
+                                Home CSS Start 
+===================================================================================-*/
+.cards {
+    border: 1px solid #277443;
+}
+.cards .title {
+    background: #277443;
+    text-align: center;
+    padding: 5px;
+    padding-top: 15px;
+}
+.cards .title h4 {
+    color: #fff;
+    
+}
+.cards .slider  {
+    padding: 5px 15px;
+    
+}
+
+.slider .v-part {
+    width: 210px;
+    margin-right: 10px;
+    position: relative;
+}
+.slider .v-part .y-icon {
+    position: absolute;
+    content: '';
+    top: 35px;
+    left: 50%;
+    width: 40px;
+    height: 30px;
+    transform: translateX(-50%);
+    
+}
+.slider .v-part img {
+	height: 90px;
+	border-radius: 5px;
+}
+.slider .items .text p {
+    font-size: 18px;
+    line-height: 20px;
+}
+.slider .items .text span {
+    font-size: 13px;
+    line-height: 20px;
+    color: #277443;
+}
+
+.cards {
+    position: relative;
+    padding-bottom: 70px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.cards i {
+    width: 40px;
+    height: 40px;
+    background: #277443;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+.left {
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+    z-index: 99;
+}
+.right {
+    position: absolute;
+    bottom: 10px;
+    right: 35%;
+    z-index: 99;
+}
+
+
+
+
+
+
+
+
+
+
+.cetagory-item .item-main {
+    position: relative;
+}
+.cetagory-item .item-main img {
+    border-radius: 8px;
+}
+
+.cetagory-item .item-main .text-area {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 120px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.03),rgba(0, 0, 0, 0.76), #000);
+	border-radius: 8px;
+}
+.cetagory-item .item-main .text-area a {
+	font-size: 18px;
+	color: #fff;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

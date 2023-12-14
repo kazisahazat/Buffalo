@@ -1,0 +1,84 @@
+/*====================== Extra small devices 
+================================================================*/
+@media (max-width: 575.98px) {
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+}
+
+/*=========================== Small devices 
+=======================================================================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  
+    
+    
+    
+    
+    
+    
+
+
+}
+
+/*============================ Medium devices 
+=========================================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    
+    
+    
+    
+    
+    
+    
+  
+}
+
+/*============================ Large devices 
+=========================================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+    
+    
+    
+
+}
+
+/*============================ Extra Large devices 
+=========================================================================*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+
+
+
+
+}
+
+/*============================ Extra Extra Large devices 
+=========================================================================*/
+@media (min-width: 1400px) and (max-width: 1499.98px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	max-width: 1420px;
+}
+
+
+}
+
+
+@media (min-width: 1500px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	max-width: 1420px;
+}
+
+}
